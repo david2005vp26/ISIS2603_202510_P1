@@ -44,7 +44,7 @@ public class ConciertoServiceTest {
     }
 
     private void clearData() {
-        entityManager.getEntityManager().createQuery("DELETE FROM MedicoEntity").executeUpdate();
+        entityManager.getEntityManager().createQuery("DELETE FROM ConciertoEntity").executeUpdate();
     }
 
     private void insertData() {
